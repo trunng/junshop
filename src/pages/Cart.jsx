@@ -5,6 +5,8 @@ import Footer from '../components/Footer'
 import { Add, Remove } from '@material-ui/icons'
 import { mobile } from '../responsive'
 import { Link } from 'react-router-dom'
+import GoToTop from '../gototop'
+
 
 const Container = styled.div`
 
@@ -245,6 +247,7 @@ const Cart = () => {
         </Bottom>
       </Wrapper>
       <Footer/>
+      <GoToTop/>
     </Container>
   )
 }

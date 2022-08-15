@@ -5,6 +5,7 @@ import Products from '../components/Products'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import { mobile } from '../responsive'
+import GoToTop from '../gototop'
 
 const Container = styled.div`
 
@@ -81,6 +82,7 @@ const ProductList = () => {
         <Products/>
         <Newsletter/>
         <Footer/>
+        <GoToTop/>
     </Container>
   )
 }

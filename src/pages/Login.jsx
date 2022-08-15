@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { mobile } from '../responsive'
 import { Link } from 'react-router-dom'
+import GoToTop from '../gototop'
 
 const Container = styled.div`
     width: 100vw;
@@ -68,6 +69,7 @@ const Login = () => {
                 <Link to = "/register" style={{textDecoration:"none",color:"inherit"}}><Lin>CREATE A NEW ACCOUNT</Lin></Link>
             </Form>
         </Wrapper>
+        <GoToTop/>
     </Container>
   )
 }
